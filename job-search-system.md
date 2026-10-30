@@ -81,11 +81,17 @@ I was paying for a Claude subscription, but I couldn't spend much on running the
 Recommended postings from email alerts went through this flow, and the results came back in a fixed format that I could review quickly.
 
 > ```
-> Setting criteria: the work and conditions I want (even vague ones) → AI collects and interprets them
->                   → connects them to real postings → fixed in a criteria file
-> Filtering:        recommended postings from email → Gemini first pass → Claude scoring
->                   → results in a fixed format → my review
->                   (both Gemini and Claude read the criteria file)
+> Setting criteria
+>   the work and conditions I want (even vague ones)
+>   → AI collects and interprets them
+>   → connects them to real postings
+>   → fixed in a criteria file
+>
+> Filtering
+>   recommended postings from email
+>   → Gemini first pass → Claude scoring
+>   → results in a fixed format → my review
+>   (both Gemini and Claude read the criteria file)
 > ```
 
 ### 2. Experience blocks
@@ -94,16 +100,24 @@ I wrote up my experiences one by one as STAR (Situation, Task, Action, Result) b
 **Each block gets tags from 22 options across four axes. The AI skims a one-line summary index first, then opens only the blocks it needs.**
 
 > ```
-> Experience → STAR block (one file per block) → tags (4 axes, 22 tags)
->            → skim the one-line index → open only the blocks needed
+> Experience → STAR block (one file per block)
+>   → tags (4 axes, 22 tags)
+>   → skim the one-line index → open only the blocks needed
 > ```
 
 > ```
-> Situation      zero-to-one · improvement · adversity · leading · seeing it through
-> Communication  explaining · requirements definition · coordination · persuasion   (with people only)
-> Skill          structuring · visualization · problem reframing · resource allocation · reading the rules
->                · fast learning · verification · end-to-end ownership · AI collaboration
-> Outcome        award · delivered to client · adopted internally · unfinished
+> Situation
+>   zero-to-one · improvement · adversity · leading
+>   · seeing it through
+> Communication (with people only)
+>   explaining · requirements definition · coordination
+>   · persuasion
+> Skill
+>   structuring · visualization · problem reframing
+>   · resource allocation · reading the rules · fast learning
+>   · verification · end-to-end ownership · AI collaboration
+> Outcome
+>   award · delivered to client · adopted internally · unfinished
 > ```
 
 ### 3. Application drafts
@@ -115,8 +129,10 @@ Reading the drafts helped me pin down the flow I wanted, and I fixed the structu
 When there was a direction or a story I wanted to work in, I brought it up in conversation to make the essay stronger.
 
 > ```
-> Posting's required skills ↔ my blocks → AI draft and review (fact rules apply)
->   → I shape the flow and add stories (in conversation) → structure fixed in prompts
+> Posting's required skills ↔ my blocks
+>   → AI draft and review (fact rules apply)
+>   → I shape the flow and add stories (in conversation)
+>   → structure fixed in prompts
 > ```
 
 ---
@@ -140,11 +156,13 @@ But for entry-level and internship applications, making up percentage improvemen
 AI fills in blanks convincingly. Two real mistakes each became a rule.
 
 > ```
-> Mistake 1. I only said someone had been in a doctoral program. The AI recorded it as "PhD in Engineering,"
+> Mistake 1. I only said someone had been in a doctoral program.
+>            The AI recorded it as "PhD in Engineering,"
 >            adding a field I never mentioned
 >   → Rule: don't fill in details I never gave
 >
-> Mistake 2. The AI treated a file it had once generated for me as if it existed in my folder
+> Mistake 2. The AI treated a file it had once generated for me
+>            as if it existed in my folder
 >   → Rule: don't assume a file exists
 > ```
 
@@ -162,17 +180,17 @@ At first, all my experience blocks were in one file, and all the prompts were in
 > Before: all experience blocks → one file / prompts → one file
 >
 > After:
-> CLAUDE.md                 ← rules and per-task entry points the AI reads first
+> CLAUDE.md                 ← rules and entry points, read first
 > profile/
 > ├── _overview.md          ← summary for a quick skim
 > ├── _index.md             ← tag index for when judgment is needed
 > ├── _tagging-guide.md     ← tagging logic (only when tagging)
 > ├── _tagging-log.md       ← history of tag criteria changes
-> ├── 0_block_writing_standards.md  ← block writing standards (only when editing blocks)
+> ├── 0_block_writing_standards.md  ← how to write a block
 > └── blocks/A~I.md         ← one file per block
-> writing/                  ← application writing steps, prompts, and a log of my judgment calls
+> writing/                  ← writing steps, prompts, my judgment log
 > backlog/                  ← material not yet turned into blocks
-> submitted/ · candidate/   ← applications sent · ones reviewed and not sent
+> submitted/ · candidate/   ← sent · reviewed and not sent
 > _structure-log.md         ← structure check history
 > ```
 
