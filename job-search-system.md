@@ -15,7 +15,7 @@ I'm an entry-level job seeker who doesn't write code. **I designed my own job-se
 
 ---
 
-## Context: how it started
+## 🌱 Context: how it started
 
 I'm a non-developer. I don't write code myself; I build things with AI tools.
 
@@ -29,7 +29,7 @@ Then I found a guide on X (Twitter) by a Claude Code user who had automated thei
 
 **I started with one thought: "I can build what I need most right now, fitted to me."**
 
-## Problem: what wasn't working
+## 🧱 Problem: what wasn't working
 
 **I started my first job search right after wrapping up my coursework.**
 I hadn't figured out how to write applications, or how to choose which postings to apply to.
@@ -55,7 +55,7 @@ The guide's design had the same issue. It was built by an experienced profession
 
 ---
 
-## What I built
+## 🛠️ What I built
 
 At first, I asked a chat assistant for the commands to type into Claude Code, then pasted them in.
 While building a job-posting filter, my chat sessions kept running out of tokens, so **I moved to working directly in Claude Code.**
@@ -117,7 +117,7 @@ When there was a direction or a story I wanted to work in, I brought it up in co
 
 ---
 
-## Decisions: three key calls
+## 🧭 Decisions: three key calls
 
 At first, I saw a harness as a folder structure. Building one showed me the core isn't the folders. It's fixing in files the context the AI reads every time.
 
@@ -174,7 +174,7 @@ At first, all my experience blocks were in one file, and all the prompts were in
 
 ---
 
-## Results: what changed
+## ✅ Results: what changed
 
 **I started my first job search right after wrapping up my coursework, and still got from reviewing postings to actually applying quickly.**
 
@@ -183,7 +183,7 @@ At first, all my experience blocks were in one file, and all the prompts were in
 - **Organizing experience**: 9 experience blocks tagged, with changes tracked in git since September 17, 2026
 - **Getting started**: less time stuck doing nothing because everything felt vague
 
-## What I learned
+## 💡 What I learned
 
 Once the system was in place, my work changed.
 The basic steps run without much effort, and my role became adjusting the structure and refining what to tell the AI.
@@ -194,7 +194,7 @@ Then I put it under clear rules and criteria, and check thoroughly that the resu
 
 ---
 
-## Credits
+## 📚 Credits
 
 - **Base design**: @moneynena's guide to automating a job search with Claude Code, in Korean. The free article "Job-search automation #2-A: 22 experience blocks" (https://x.com/moneynena/article/2047897472379584932) and the author's subscriber posts
 - **A README in every folder**: the webinar "Hands-on AI for Researchers" (Korean, August 26, 2026)
