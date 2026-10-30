@@ -3,8 +3,6 @@ layout: default
 title: Luna Lee
 ---
 
-# Luna Lee
-
 Non-developer building automation systems with AI.
 
 ## Writing
