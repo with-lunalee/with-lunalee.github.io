@@ -73,8 +73,10 @@ The AI pulled those conditions together. Even vague ones that made me wonder "ca
 I then fixed all of it in a separate criteria file, including conditions that would rule a posting out, like required experience or location, and the scoring criteria.
 
 > Example: read the main duties before the job title.
-> - "Forward Deployed Engineer": an engineering title, but if the actual work is helping non-technical colleagues adopt AI, it's a match
-> - "AI 기획" (AI planning): in Korea, 기획 is a job family close to product management, and "AI" in front names the domain. If the actual work is model training or building data pipelines, it's not a match
+>
+> "Forward Deployed Engineer": an engineering title, but if the actual work is helping non-technical colleagues adopt AI, it's a match.
+>
+> "AI 기획" (AI planning): in Korea, 기획 is a job family close to product management, and "AI" in front names the domain. If the actual work is model training or building data pipelines, it's not a match.
 
 I was paying for a Claude subscription, but I couldn't spend much on running the system. So I focused on what I could use for free.
 **Gemini offered several models I could call for free, so I gave it the first-pass filtering and had Claude do the scoring.**
