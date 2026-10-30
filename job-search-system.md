@@ -7,10 +7,6 @@ title: "From borrowed prompts to my own rules: how I built a job-search system w
 
 *Notes from my first job search as a non-developer.*
 
----
-
-## TL;DR
-
 I'm an entry-level job seeker who doesn't write code. **I designed my own job-search system with Claude Code.**
 
 - Reviewing job postings used to take me more than half a day. It now takes **about 20 minutes**.
