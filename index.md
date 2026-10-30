@@ -5,7 +5,7 @@ title: Luna Lee
 
 # Luna Lee
 
-Non-developer building job-search and work systems with AI.
+Non-developer building automation systems with AI.
 
 ## Writing
 
