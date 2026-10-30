@@ -5,6 +5,6 @@ title: Luna Lee
 
 Non-developer building automation systems with AI.
 
-## Writing
+## 📝 Writing
 
 - [From borrowed prompts to my own rules: how I built a job-search system with Claude Code as a non-developer](/job-search-system)
