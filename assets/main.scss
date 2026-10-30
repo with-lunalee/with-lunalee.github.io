@@ -61,3 +61,10 @@ pre, code {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 14px;
 }
+
+// Footer: name, then the tagline in grey
+.footer-heading { margin-top: 0; }
+.footer-description {
+  color: $grey-color;
+  font-size: 15px;
+}
