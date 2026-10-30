@@ -31,6 +31,8 @@ Then I found a guide on X (Twitter) by a Claude Code user who had automated thei
 
 **I started with one thought: "I can build what I need most right now, fitted to me."**
 
+---
+
 ## 🧱 Problem: what wasn't working
 
 **I started my first job search right after wrapping up my coursework.**
@@ -184,6 +186,8 @@ At first, all my experience blocks were in one file, and all the prompts were in
 - **Applications**: after building the system, 2 submitted, and 2 more reviewed and deliberately not submitted
 - **Organizing experience**: 9 experience blocks tagged, with changes tracked in git since September 17, 2026
 - **Getting started**: less time stuck doing nothing because everything felt vague
+
+---
 
 ## 💡 What I learned
 
